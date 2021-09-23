@@ -1,0 +1,14 @@
+clc; 
+clear all; 
+close all; 
+fs = 1000000; 
+t = (0:1/fs:500/fs)'; 
+m = sin(2*pi*2000.*t); 
+fc = 100000; 
+initialPhase = 0; 
+lowerSidebandSignal = ssbmod(m,fc,fs,initialPhase); 
+upperSidebandSignal = ssbmod(m,fc,fs,initialPhase,'upper'); 
+s1 = ssbdemod(lowerSidebandSignal,fc,fs); 
+s2 = ssbdemod(upperSidebandSignal,fc,fs); 
+plot(t,m,'k',t,s1,'r:',t,s2,'g-.'); 
+legend('Original Signal','Demodulation of Lower Sideband','Demodulation of Upper Sideband');
