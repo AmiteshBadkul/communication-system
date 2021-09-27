@@ -7,6 +7,7 @@ This repo contains my attempt at the lab work of the course "EEE 311 - Communica
 2. Experiment 2: Introduction to MATLAB
 3. Experiment 3: Amplitude Modulation (With carrier) and Demodulation
 4. DSB-SC & SSB-SC Modulation and Demodulation
+5. Frequency Modulation and Demodulation
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
