@@ -9,6 +9,7 @@ This repo contains my attempt at the lab work of the course "EEE 311 - Communica
 4. DSB-SC & SSB-SC Modulation and Demodulation
 5. Frequency Modulation and Demodulation
 6. Phase Modulation and Demodulation
+7. Sampling and Reconstruction
 
 
 ## Contributing
