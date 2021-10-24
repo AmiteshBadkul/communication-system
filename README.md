@@ -6,10 +6,10 @@ This repo contains my attempt at the lab work of the course "EEE 311 - Communica
 1. Experiment 1: Introduction to Digital Storage Oscilloscope (DSO)
 2. Experiment 2: Introduction to MATLAB
 3. Experiment 3: Amplitude Modulation (With carrier) and Demodulation
-4. DSB-SC & SSB-SC Modulation and Demodulation
-5. Frequency Modulation and Demodulation
-6. Phase Modulation and Demodulation
-7. Sampling and Reconstruction
+4. Experiment 4: DSB-SC & SSB-SC Modulation and Demodulation
+5. Experiment 5: Frequency Modulation and Demodulation
+6. Experiment 6: Phase Modulation and Demodulation
+7. Experiment 7: Sampling and Reconstruction
 
 
 ## Contributing
