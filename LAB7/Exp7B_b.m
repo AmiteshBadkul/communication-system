@@ -1,0 +1,16 @@
+Fs = 1000000;
+fm = 2000;
+T = 1/20000;
+tau = 0.01*T;
+t = 0:1/Fs:10*T;
+N = size(t);
+sampling_signal = 0.5*(square(2*pi*t/T,(tau/T)*100) + 1);
+m = sin(2*pi*fm*t);
+sampled_signal = sampling_signal.*m;
+sfft = fftshift(fft(sampled_signal)/N(2));
+P1 = abs(sfft);
+f = -(Fs/2):(1/(10*T)):(Fs/2)+1;
+plot(f,P1);
+title("Sampled signal spectra");
+xlabel("Frequency");
+ylabel("Amplitude");
