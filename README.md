@@ -10,7 +10,7 @@ This repo contains my attempt at the lab work of the course "EEE 311 - Communica
 5. Experiment 5: Frequency Modulation and Demodulation
 6. Experiment 6: Phase Modulation and Demodulation
 7. Experiment 7: Sampling and Reconstruction
-
+8. Experiment 8: Line Coding
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
