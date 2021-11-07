@@ -11,6 +11,7 @@ This repo contains my attempt at the lab work of the course "EEE 311 - Communica
 6. Experiment 6: Phase Modulation and Demodulation
 7. Experiment 7: Sampling and Reconstruction
 8. Experiment 8: Line Coding
+9. Experiment 9: Pulse Width and Pulse Position Modulation
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
